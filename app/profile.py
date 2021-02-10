@@ -1,7 +1,5 @@
 from collections import defaultdict
 
-from flask import jsonify
-
 class OrganizationProfile:
     """
     Class to hold all the relevant profile information from a given git SVN host
