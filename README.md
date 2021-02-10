@@ -16,10 +16,10 @@ pip install -r requirements.txt
 ```
 
 ## Running the code
-Start up a local server (detailed in the next section)
-You can request a unified profile for a given bitbucket team name and github organization name as follows
+Start up a local server (detailed in the next section).
+You can then request a unified profile for a given bitbucket team name and github organization name:
 ```
-http://127.0.0.1:5000/profile?bitbucket-team={bitbucket team name}&github-org={github organization name}
+curl -i "http://127.0.0.1:5000/profile?bitbucket-team={bitbucket team name}&github-org={github organization name}"
 ```
 
 The resulting profile is returned as json with the following format:
