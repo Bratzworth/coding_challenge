@@ -6,8 +6,6 @@ from collections import defaultdict
 import app
 from app import profile
 
-import flask
-
 class TestOrganizationProfile(unittest.TestCase):
     def test_init_empty(self):
         test = profile.OrganizationProfile()
